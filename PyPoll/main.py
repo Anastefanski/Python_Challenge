@@ -1,7 +1,7 @@
 import os
 import csv
 
-csvpath = os.path.join('resources','election_data.csv')
+csvpath = os.path.join('Resources','election.csv')
 
 total_votes = 0
 vote_total = []
@@ -56,6 +56,7 @@ with open (output_path,"w") as file:
     file.write (f"Total Votes: " + str(total_votes))
     file.write ("\n")
     file.write ("--------------------------")
+    file.write ("\n")
     for i in range(len(candidates_name)):
         line = ((candidates_name[i] + ": " + (str(percent_of_vote[i])) + " (" + (str(each_vote[i])) + ")"))
         file.write('{}\n'.format(line))
@@ -66,4 +67,3 @@ with open (output_path,"w") as file:
     file.write ("--------------------------")
 
     
-
