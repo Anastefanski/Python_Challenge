@@ -19,5 +19,5 @@ Using the election_data.csv file, calculate each of the following:
 * The winner of the election based on popular vote
 
 
-  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
